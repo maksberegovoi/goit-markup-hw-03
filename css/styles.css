@@ -1,0 +1,166 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--iris);
+}
+
+.header-menu-link:hover, .header-menu-link:focus {
+  color: var(--ocean);
+}
+
+.contacts-menu-item:hover, .contacts-menu-item:focus {
+  color: var(--ocean);
+}
+
+.logo-accent {
+  color: var(--navy-blue);
+}
+
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.header-menu-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.menu {
+  list-style: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-menu {
+  list-style: none;
+}
+
+.btn {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+
+  background: var(--iris);
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+  background-color: var(--ocean);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.hero {
+  background: var(--navy-blue);
+}
+
+.hero-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.spdt-list {
+  list-style: none;
+}
+
+.team {
+  background: var(--cloud);
+}
+.team-title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+  list-style: none;
+  text-align: center;
+}
+
+.team-list-item {
+  background-color: #FFFFFF;
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+footer {
+  background: var(--navy-blue);
+  color: var(--cloud);
+}
+.footer-logo-accent {
+  color: var(--cloud);
+}
+
+p {
+  font-size: 16px;
+}
