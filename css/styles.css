@@ -164,3 +164,20 @@ footer {
 p {
   font-size: 16px;
 }
+
+.container {
+  width: 1158px;
+  /* width: 1440px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
