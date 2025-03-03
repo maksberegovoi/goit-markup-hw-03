@@ -31,13 +31,17 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--iris);
 }
 
+.logo-header {
+  margin-right: 76px;
+}
+.logo-footer {
+  padding: 101.5px 0 0 0;
+}
 .header-menu-link:hover, .header-menu-link:focus {
   color: var(--ocean);
 }
@@ -66,14 +70,22 @@ a {
 
 .menu {
   list-style: none;
+
+  padding: 24px 0;
+  gap: 40px
+
 }
 
 .contacts {
   font-style: normal;
+
+  margin-left: 332px;
 }
 
 .contacts-menu {
   list-style: none;
+
+  gap: 40px;
 }
 
 .btn {
@@ -111,6 +123,8 @@ h3 {
 
 .hero {
   background: var(--navy-blue);
+
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -121,6 +135,8 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
+
+  max-width: 496px;
 }
 
 .spdt-list {
@@ -166,12 +182,11 @@ p {
 }
 
 .container {
-  width: 1158px;
-  /* width: 1440px; */
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
 }
 
 ul {
@@ -179,5 +194,35 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding: 120px 0;
+  margin: 0;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn {
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.slogan {
+  padding: 140px 0 100px;
+  max-width: 264px;
+  height: 72px;
 }
