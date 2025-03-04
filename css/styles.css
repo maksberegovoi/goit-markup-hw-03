@@ -1,6 +1,6 @@
 :root {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -31,30 +31,25 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--iris);
 }
 
-.logo-header {
-  margin-right: 76px;
-}
-.logo-footer {
-  padding: 101.5px 0 0 0;
-}
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:hover, .header-menu-link:focus {
   color: var(--ocean);
 }
 
-.contacts-menu-item:hover,
-.contacts-menu-item:focus {
+.contacts-menu-item:hover, .contacts-menu-item:focus {
   color: var(--ocean);
 }
 
 .logo-accent {
   color: var(--navy-blue);
 }
+
 
 a {
   text-decoration: none;
@@ -71,23 +66,14 @@ a {
 
 .menu {
   list-style: none;
-
-  padding: 24px 0;
-  gap: 40px;
 }
 
 .contacts {
   font-style: normal;
-
-  margin-left: 332px;
 }
 
 .contacts-menu {
   list-style: none;
-
-  display: flex;
-  padding: 24px 0;
-  gap: 40px;
 }
 
 .btn {
@@ -102,8 +88,7 @@ a {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: var(--ocean);
 }
 
@@ -126,8 +111,6 @@ h3 {
 
 .hero {
   background: var(--navy-blue);
-
-  padding: 188px 0;
 }
 
 .hero-title {
@@ -138,22 +121,10 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-
-  max-width: 496px;
 }
 
 .spdt-list {
   list-style: none;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 8px;
-}
-.spdt-list-item {
-  width: 264px;
-  height: 104px;
 }
 
 .team {
@@ -167,13 +138,10 @@ h3 {
 .team-list {
   list-style: none;
   text-align: center;
-
-  
 }
 
 .team-list-item {
-  background-color: #ffffff;
-
+  background-color: #FFFFFF;
 }
 
 .portfolio-list {
@@ -195,49 +163,4 @@ footer {
 
 p {
   font-size: 16px;
-}
-
-.container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-img {
-  display: block;
-}
-
-.section {
-  padding: 120px 0;
-  margin: 0;
-}
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
-.hero-btn {
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
-  padding: 16px 32px;
-}
-
-.slogan {
-  padding: 140px 0 100px;
-  max-width: 264px;
-  height: 72px;
 }
