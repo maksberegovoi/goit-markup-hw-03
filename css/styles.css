@@ -90,15 +90,19 @@ a {
   color: var(--navy-blue);
 }
 
+.menu-item {
+  padding: 24px 0;
+}
 .menu {
   list-style: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header .container {
