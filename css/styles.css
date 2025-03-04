@@ -1,6 +1,6 @@
 :root {
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -31,31 +31,41 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--iris);
-}
 
-.header-menu-link:hover, .header-menu-link:focus {
-  color: var(--ocean);
-}
-
-.contacts-menu-item:hover, .contacts-menu-item:focus {
-  color: var(--ocean);
+  display: inline-flex;
+  align-items: center;
+  margin-right: 76px;
 }
 
 .logo-accent {
   color: var(--navy-blue);
 }
 
-
 a {
   text-decoration: none;
   color: currentColor;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean);
+}
+
+.contacts-menu-item:hover,
+.contacts-menu-item:focus {
+  color: var(--ocean);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--cornflower);
+}
 .header-menu-link {
   font-style: normal;
   font-weight: 500;
@@ -66,6 +76,11 @@ a {
 
 .menu {
   list-style: none;
+
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts {
@@ -74,6 +89,10 @@ a {
 
 .contacts-menu {
   list-style: none;
+
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .btn {
@@ -88,7 +107,8 @@ a {
   cursor: pointer;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--ocean);
 }
 
@@ -141,7 +161,7 @@ h3 {
 }
 
 .team-list-item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .portfolio-list {
@@ -163,4 +183,15 @@ footer {
 
 p {
   font-size: 16px;
+}
+
+.container {
+  width: 1158px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin: 0;
 }
