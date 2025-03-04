@@ -15,6 +15,22 @@
   --dairy: #fcfcfc;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+	margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   font-family: var(--font-family);
   color: var(--slate);
@@ -76,11 +92,17 @@ a {
 
 .menu {
   list-style: none;
-
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 40px;
   padding: 24px 0;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header .container {
+  display: flex;
 }
 
 .contacts {
@@ -93,6 +115,7 @@ a {
   display: flex;
   padding: 24px 0;
   gap: 40px;
+  margin-left: 332px;
 }
 
 .btn {
@@ -187,7 +210,6 @@ p {
 
 .container {
   width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
