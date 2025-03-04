@@ -88,10 +88,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+
+  padding: 24px 0;
 }
 
 .menu-item {
-  padding: 24px 0;
+  
 }
 .menu {
   list-style: none;
