@@ -204,16 +204,17 @@ h3 {
   padding: 120px 0;
 }
 
-.spdt-title {
-  margin-bottom: 8px;
-}
 
 .spdt-list-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   width: calc((100% - 3 * 24px) / 4);
 }
+
+.spdt-list-title {
+  margin-bottom: 8px;
+}
+
 .team {
   background: var(--cloud);
 
@@ -282,6 +283,7 @@ h3 {
   padding-left: 16px;
   margin-bottom: 8px;
 }
+
 .portfolio-item-desc {
   padding-left: 16px;
 }
