@@ -175,6 +175,10 @@ h3 {
 }
 .hero .btn {
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-title {
   font-family: var(--font-family);
@@ -198,6 +202,10 @@ h3 {
 
 .spdt {
   padding: 120px 0;
+}
+
+.spdt-title {
+  margin-bottom: 8px;
 }
 
 .spdt-list-item {
@@ -236,24 +244,24 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  padding: 32px 0;
 }
 .team-list-item {
   background-color: #ffffff;
 
   width: calc((100% - 3 * 24px) / 4);
   display: inline-flex;
-  padding-bottom: 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
-
+.list-item-title {
+  margin-bottom: 8px;
+}
 .portfolio {
   padding: 120px 0;
 }
@@ -272,6 +280,7 @@ h3 {
 
 .portfolio-list-title {
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 .portfolio-item-desc {
   padding-left: 16px;
